@@ -1,0 +1,23 @@
+{
+  "name": "mockserver",
+  "version": "1.0.0",
+  "description": "A Cloud Function",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0 <11.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "GeetaKrishna Adhikari",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.4",
+    "moment": "^2.22.1",
+    "moment-range": "^4.0.1",
+    "nodemailer": "^5.1.1"
+  }
+}
